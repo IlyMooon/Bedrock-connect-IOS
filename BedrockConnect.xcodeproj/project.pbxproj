@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC0000000000000000000201 /* BedrockConnectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0000000000000000000101 /* BedrockConnectApp.swift */; };
+		BC0000000000000000000203 /* VarInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0000000000000000000103 /* VarInt.swift */; };
+		BC0000000000000000000204 /* RakNet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0000000000000000000104 /* RakNet.swift */; };
+		BC0000000000000000000205 /* BedrockProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0000000000000000000105 /* BedrockProtocol.swift */; };
+		BC0000000000000000000206 /* BedrockQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0000000000000000000106 /* BedrockQuery.swift */; };
+		BC0000000000000000000207 /* ClientSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0000000000000000000107 /* ClientSession.swift */; };
+		BC0000000000000000000208 /* BedrockTransferServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0000000000000000000108 /* BedrockTransferServer.swift */; };
+		BC0000000000000000000209 /* ServerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0000000000000000000109 /* ServerModel.swift */; };
+		BC000000000000000000020A /* LogEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC000000000000000000010A /* LogEntry.swift */; };
+		BC000000000000000000020B /* ServerConfigManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC000000000000000000010B /* ServerConfigManager.swift */; };
+		BC000000000000000000020C /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC000000000000000000010C /* AppTheme.swift */; };
+		BC000000000000000000020D /* MinecraftTextParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC000000000000000000010D /* MinecraftTextParser.swift */; };
+		BC000000000000000000020E /* PartnerServerCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC000000000000000000010E /* PartnerServerCardView.swift */; };
+		BC000000000000000000020F /* FavoriteServerCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC000000000000000000010F /* FavoriteServerCardView.swift */; };
+		BC0000000000000000000210 /* SegmentedSliderBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0000000000000000000110 /* SegmentedSliderBar.swift */; };
+		BC0000000000000000000211 /* LiveLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0000000000000000000111 /* LiveLogView.swift */; };
+		BC0000000000000000000212 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0000000000000000000112 /* GameView.swift */; };
+		BC0000000000000000000213 /* ComingSoonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0000000000000000000113 /* ComingSoonView.swift */; };
+		BC0000000000000000000214 /* InfosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0000000000000000000114 /* InfosView.swift */; };
+		BC0000000000000000000215 /* MainContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0000000000000000000115 /* MainContainerView.swift */; };
+		BC0000000000000000000216 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC0000000000000000000116 /* Assets.xcassets */; };
+		BC0000000000000000000217 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0000000000000000000117 /* libz.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BC0000000000000000000008 /* BedrockConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BedrockConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC0000000000000000000101 /* BedrockConnectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BedrockConnectApp.swift; sourceTree = "<group>"; };
+		BC0000000000000000000102 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC0000000000000000000103 /* VarInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VarInt.swift; sourceTree = "<group>"; };
+		BC0000000000000000000104 /* RakNet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RakNet.swift; sourceTree = "<group>"; };
+		BC0000000000000000000105 /* BedrockProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BedrockProtocol.swift; sourceTree = "<group>"; };
+		BC0000000000000000000106 /* BedrockQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BedrockQuery.swift; sourceTree = "<group>"; };
+		BC0000000000000000000107 /* ClientSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientSession.swift; sourceTree = "<group>"; };
+		BC0000000000000000000108 /* BedrockTransferServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BedrockTransferServer.swift; sourceTree = "<group>"; };
+		BC0000000000000000000109 /* ServerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerModel.swift; sourceTree = "<group>"; };
+		BC000000000000000000010A /* LogEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogEntry.swift; sourceTree = "<group>"; };
+		BC000000000000000000010B /* ServerConfigManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerConfigManager.swift; sourceTree = "<group>"; };
+		BC000000000000000000010C /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		BC000000000000000000010D /* MinecraftTextParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinecraftTextParser.swift; sourceTree = "<group>"; };
+		BC000000000000000000010E /* PartnerServerCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartnerServerCardView.swift; sourceTree = "<group>"; };
+		BC000000000000000000010F /* FavoriteServerCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteServerCardView.swift; sourceTree = "<group>"; };
+		BC0000000000000000000110 /* SegmentedSliderBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedSliderBar.swift; sourceTree = "<group>"; };
+		BC0000000000000000000111 /* LiveLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveLogView.swift; sourceTree = "<group>"; };
+		BC0000000000000000000112 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		BC0000000000000000000113 /* ComingSoonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComingSoonView.swift; sourceTree = "<group>"; };
+		BC0000000000000000000114 /* InfosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfosView.swift; sourceTree = "<group>"; };
+		BC0000000000000000000115 /* MainContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContainerView.swift; sourceTree = "<group>"; };
+		BC0000000000000000000116 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC0000000000000000000117 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC0000000000000000000005 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC0000000000000000000217 /* libz.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC0000000000000000000003 = {
+			isa = PBXGroup;
+			children = (
+				BC0000000000000000000010 /* BedrockConnect */,
+				BC0000000000000000000007 /* Products */,
+				BC000000000000000000001A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BC0000000000000000000007 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC0000000000000000000008 /* BedrockConnect.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC0000000000000000000010 /* BedrockConnect */ = {
+			isa = PBXGroup;
+			children = (
+				BC0000000000000000000011 /* App */,
+				BC0000000000000000000012 /* Protocol */,
+				BC0000000000000000000013 /* Server */,
+				BC0000000000000000000014 /* Models */,
+				BC0000000000000000000015 /* UI */,
+				BC0000000000000000000019 /* Resources */,
+			);
+			path = BedrockConnect;
+			sourceTree = "<group>";
+		};
+		BC0000000000000000000011 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				BC0000000000000000000101 /* BedrockConnectApp.swift */,
+				BC0000000000000000000102 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		BC0000000000000000000012 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				BC0000000000000000000103 /* VarInt.swift */,
+				BC0000000000000000000104 /* RakNet.swift */,
+				BC0000000000000000000105 /* BedrockProtocol.swift */,
+				BC0000000000000000000106 /* BedrockQuery.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		BC0000000000000000000013 /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				BC0000000000000000000107 /* ClientSession.swift */,
+				BC0000000000000000000108 /* BedrockTransferServer.swift */,
+			);
+			path = Server;
+			sourceTree = "<group>";
+		};
+		BC0000000000000000000014 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BC0000000000000000000109 /* ServerModel.swift */,
+				BC000000000000000000010A /* LogEntry.swift */,
+				BC000000000000000000010B /* ServerConfigManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BC0000000000000000000015 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				BC0000000000000000000016 /* Theme */,
+				BC0000000000000000000017 /* Components */,
+				BC0000000000000000000018 /* Views */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		BC0000000000000000000016 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				BC000000000000000000010C /* AppTheme.swift */,
+				BC000000000000000000010D /* MinecraftTextParser.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		BC0000000000000000000017 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				BC000000000000000000010E /* PartnerServerCardView.swift */,
+				BC000000000000000000010F /* FavoriteServerCardView.swift */,
+				BC0000000000000000000110 /* SegmentedSliderBar.swift */,
+				BC0000000000000000000111 /* LiveLogView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		BC0000000000000000000018 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BC0000000000000000000112 /* GameView.swift */,
+				BC0000000000000000000113 /* ComingSoonView.swift */,
+				BC0000000000000000000114 /* InfosView.swift */,
+				BC0000000000000000000115 /* MainContainerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BC0000000000000000000019 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BC0000000000000000000116 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BC000000000000000000001A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC0000000000000000000117 /* libz.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC0000000000000000000002 /* BedrockConnect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC000000000000000000000C /* Build configuration list for PBXNativeTarget "BedrockConnect" */;
+			buildPhases = (
+				BC0000000000000000000004 /* Sources */,
+				BC0000000000000000000005 /* Frameworks */,
+				BC0000000000000000000006 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BedrockConnect;
+			productName = BedrockConnect;
+			productReference = BC0000000000000000000008 /* BedrockConnect.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC0000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					BC0000000000000000000002 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = BC0000000000000000000009 /* Build configuration list for PBXProject "BedrockConnect" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = fr;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				fr,
+				Base,
+			);
+			mainGroup = BC0000000000000000000003;
+			productRefGroup = BC0000000000000000000007 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC0000000000000000000002 /* BedrockConnect */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC0000000000000000000006 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC0000000000000000000216 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC0000000000000000000004 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC0000000000000000000201 /* BedrockConnectApp.swift in Sources */,
+				BC0000000000000000000203 /* VarInt.swift in Sources */,
+				BC0000000000000000000204 /* RakNet.swift in Sources */,
+				BC0000000000000000000205 /* BedrockProtocol.swift in Sources */,
+				BC0000000000000000000206 /* BedrockQuery.swift in Sources */,
+				BC0000000000000000000207 /* ClientSession.swift in Sources */,
+				BC0000000000000000000208 /* BedrockTransferServer.swift in Sources */,
+				BC0000000000000000000209 /* ServerModel.swift in Sources */,
+				BC000000000000000000020A /* LogEntry.swift in Sources */,
+				BC000000000000000000020B /* ServerConfigManager.swift in Sources */,
+				BC000000000000000000020C /* AppTheme.swift in Sources */,
+				BC000000000000000000020D /* MinecraftTextParser.swift in Sources */,
+				BC000000000000000000020E /* PartnerServerCardView.swift in Sources */,
+				BC000000000000000000020F /* FavoriteServerCardView.swift in Sources */,
+				BC0000000000000000000210 /* SegmentedSliderBar.swift in Sources */,
+				BC0000000000000000000211 /* LiveLogView.swift in Sources */,
+				BC0000000000000000000212 /* GameView.swift in Sources */,
+				BC0000000000000000000213 /* ComingSoonView.swift in Sources */,
+				BC0000000000000000000214 /* InfosView.swift in Sources */,
+				BC0000000000000000000215 /* MainContainerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BC000000000000000000000A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDEFINED_VARIABLES = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC000000000000000000000B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDEFINED_VARIABLES = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC000000000000000000000D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RLG5WX62KW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = BedrockConnect/App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bedrockconnector.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC000000000000000000000E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RLG5WX62KW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = BedrockConnect/App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bedrockconnector.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC0000000000000000000009 /* Build configuration list for PBXProject "BedrockConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC000000000000000000000A /* Debug */,
+				BC000000000000000000000B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC000000000000000000000C /* Build configuration list for PBXNativeTarget "BedrockConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC000000000000000000000D /* Debug */,
+				BC000000000000000000000E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC0000000000000000000001 /* Project object */;
+}

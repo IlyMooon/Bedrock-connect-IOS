@@ -1,0 +1,70 @@
+# Dependencies
+Pods/
+Carthage/Build/
+vendor/
+
+# Build output and caches
+/dist
+dist/
+build/
+DerivedData/
+*.o
+*.a
+*.dylib
+*.framework
+
+# Swift Package Manager
+.build/
+Packages/
+Package.pins
+
+# Xcode and Apple
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xcscmblueprint
+*.xcuserstate
+*.xccheckout
+*.moved-aside
+
+# Logs and temporary files
+*.log
+*.crash
+*.tmp
+*.temp
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.bak
+
+# Operating System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Secrets and local configuration
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.mobileprovision
+
+# Legacy Python caches
+__pycache__/
+*.py[cod]
+*$py.class
